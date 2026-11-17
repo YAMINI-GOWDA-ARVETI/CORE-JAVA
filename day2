@@ -9,7 +9,7 @@
           ->nested if
           ->switch
                              
-Syntax:-
+Conditional Statements Syntax:-
 if condition{
     //block of code
     }
@@ -129,3 +129,18 @@ public static void main(String args[]){
     System.out.println("condition1");
 }
 }
+Switch Syntax:-
+switch(condition){
+case 1:
+\\statement 1;
+\\break;
+case 2:
+\\statement 2;
+\\break;
+case n:
+\\statement n;
+\\break;
+}
+
+
+
