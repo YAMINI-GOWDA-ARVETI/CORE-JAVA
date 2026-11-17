@@ -102,3 +102,30 @@ class Ifelseladder{
         }
     }
 }
+
+Nested if Syntax:-
+if condition1{
+if condition2{
+//block of code 2
+}
+//block of code statement1
+}
+program:-
+import java.io.*;
+import java.util.*;
+class Nestedif{
+
+public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("enter a number:");
+    int num=sc.nextInt();
+    if(num>=20)
+    {
+        if(num>20)
+        {
+            System.out.println("condition2");
+        }
+    }
+    System.out.println("condition1");
+}
+}
