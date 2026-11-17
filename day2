@@ -1,0 +1,104 @@
+                           **Control Statements
+                                    |
+            --------------------------------------------------------
+            |                          |                            |
+            conditional               looping                       jumping
+          ->if                        ->for                        ->continue
+          ->if else                   ->while                      ->break
+          ->else if ladder            ->do while                   ->return
+          ->nested if
+          ->switch
+                             
+Syntax:-
+if condition{
+    //block of code
+    }
+program:-
+import java.io.*;
+import java.util.*;
+public class Ifcondition{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        if(a<=b)
+        {
+            System.out.println("condition is true");
+        }
+    }
+}
+syntax:-
+if else{
+  //block code
+}else{
+  //block code
+}
+
+program:-
+import java.io.*;
+import java.util.*;
+public class Ifelse {
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int a=sc.nextInt();
+        System.out.println("enter b number:");
+        int b=sc.nextInt();
+        if(a<=b)
+        {
+            System.out.println("condition is true");
+        }else{
+            System.out.println("condition is false");
+        }
+    }
+}
+Syntax:-
+if else ladder
+if condition{
+  //block of code
+}
+else if condition2{
+  //block of code
+}
+else if condition3{
+  //block of code
+}
+else if condition4{
+  //block of code
+}
+else{
+  //block of code
+}
+Program:-
+import java.io.*;
+import java.util.*;
+class Ifelseladder{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter  a Student name:");
+        String name=sc.nextLine();
+        System.out.println("enter marks");
+        int marks=sc.nextInt();
+        if(marks>90)
+        {
+            System.out.println("distinction");
+        }
+        else if( marks >75)
+        {
+            System.out.println("first class");
+        }
+        else if(marks>50)
+        {
+            System.out.println("second class");
+        }
+        else if(marks>35)
+        {
+            System.out.println("pass");
+        }
+        else{
+            System.out.println("fail");
+        }
+    }
+}
